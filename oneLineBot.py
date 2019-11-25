@@ -37,5 +37,3 @@ for comment in subreddit.stream.comments(skip_existing=True):
                 print('POSTED den anagnwrisa entoli' + word)
         except:
             print('to frequent')
-    else:
-        print('Den me kalesan, alla eipan na shmeiwsw auto: ' + comment.body)
