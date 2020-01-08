@@ -18,7 +18,7 @@ keyphrase = '!onelineof '
 
 # look for phrase and reply appropriately
 for comment in subreddit.stream.comments(skip_existing=True):
-    if (keyphrase in comment.body) and (comment.author.name != 'no0neio'):
+    if (keyphrase in comment.body) and (comment.author.name != 'yournamehere'):
         word = comment.body.replace(keyphrase, '')
         print(word)
         try:
